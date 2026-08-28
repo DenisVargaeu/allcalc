@@ -4,7 +4,7 @@ ALLCALC ROADMAP
 [*] Main menu
 [*] Module system
 [*] Exit
-[ ] Error handling
+[*] Error handling
 
 [CURRENT MODULES]
 [*] Positive / Negative / Zero
@@ -13,7 +13,7 @@ ALLCALC ROADMAP
 [/] Customize prompt (y/n)
 
 [CALCULATORS]
-[ ] Basic Calculator
+[*] Basic Calculator
 [ ] Percentage Calculator
 [ ] Power / Root Calculator
 
