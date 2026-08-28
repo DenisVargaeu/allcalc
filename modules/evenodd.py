@@ -8,5 +8,7 @@ def check(number):
 
     if number.is_integer() and work.is_integer():
         print (f"Number {number} is even number")
+        return
     else:
         print (f"Number {number} is odd number")
+        return

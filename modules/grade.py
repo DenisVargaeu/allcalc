@@ -10,3 +10,4 @@ def check (score):
     else:
         grade = "Invalid score"
     print (f"Score {score} is {grade}")
+    return 
