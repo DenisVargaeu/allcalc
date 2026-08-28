@@ -1,0 +1,79 @@
+ALLCALC ROADMAP
+
+[CORE]
+[*] Main menu
+[*] Module system
+[*] Exit
+[ ] Error handling
+
+[CURRENT MODULES]
+[*] Positive / Negative / Zero
+[*] Even / Odd
+[*] Grade Checker
+[/] Customize prompt (y/n)
+
+[CALCULATORS]
+[ ] Basic Calculator
+[ ] Percentage Calculator
+[ ] Power / Root Calculator
+
+[GEOMETRY]
+[ ] Surface Calculator
+    [ ] Cube
+    [ ] Cuboid
+    [ ] Sphere
+    [ ] Cylinder
+    [ ] Cone
+
+[ ] Volume Calculator
+    [ ] Cube
+    [ ] Cuboid
+    [ ] Sphere
+    [ ] Cylinder
+    [ ] Cone
+
+[ ] Pythagoras Calculator
+[ ] Triangle Calculator
+[ ] Circle Calculator
+
+[CONVERTERS]
+[ ] Length
+[ ] Weight
+[ ] Temperature
+[ ] Area
+[ ] Volume
+[ ] Time
+
+[ADVANCED MATH]
+[ ] Statistics
+[ ] Quadratic Equations
+[ ] Trigonometry
+[ ] Logarithms
+
+[CUSTOMIZATION]
+[ ] Module-specific customization
+[ ] Custom grading system
+[ ] Custom units
+[ ] Show formulas
+[ ] Detailed calculations
+
+[UX]
+[ ] Better menus
+[ ] Clear terminal
+[ ] Repeat calculation
+[ ] Back option
+[ ] Help
+[ ] About
+
+[RELEASE]
+[ ] README
+[ ] GitHub
+[ ] Version system
+[ ] Changelog
+[ ] AllCalc v1.0
+
+
+
+[ ] - in the futore 
+[/] - working on            
+[*] - done
