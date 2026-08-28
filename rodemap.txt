@@ -66,11 +66,11 @@ ALLCALC ROADMAP
 [ ] About
 
 [RELEASE]
-[ ] README
-[ ] GitHub
-[ ] Version system
+[*] README
+[*] GitHub
+[*] Version system
 [ ] Changelog
-[ ] AllCalc v1.0
+[*] AllCalc v1.0
 
 
 
