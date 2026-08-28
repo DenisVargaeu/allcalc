@@ -10,6 +10,7 @@ print ("Please choose what you want to calculate:")
 print ("1. Check if number is positive, negative or zero")
 print ("2. Check if number is even or odd")
 print ("3. Check your grade")   
+print ("4. Basic calcualtor shell")
 print ("Q. Exit the program")
 
 def pick():
@@ -26,6 +27,9 @@ def pick():
         print ("You have chosen grade checker please provide you score")
         score = float(input("Please input your score: "))
         gr.check(score)
+    elif choice == "4":
+        print ("You have chosen basic calculator shell")
+        basic.calc()
     elif choice == "Q" or choice == "q":
         print ("Exiting the program. Goodbye!")
         exit()
