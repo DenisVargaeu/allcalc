@@ -5,7 +5,18 @@ from modules import grade as gr
 from modules import basiccalc as basic
 
 
-print ("Welcome to AllCalc")
+print("""
+   ░███    ░██         ░██           ░██████     ░███    ░██           ░██████  
+  ░██░██   ░██         ░██          ░██   ░██   ░██░██   ░██          ░██   ░██ 
+ ░██  ░██  ░██         ░██         ░██         ░██  ░██  ░██         ░██        
+░█████████ ░██         ░██         ░██         ░█████████ ░██         ░██        
+░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
+░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
+░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████ 
+V 1.0.0
+By Denis Varga made with <3 and code in Python 3.11.4
+
+""")
 print ("Please choose what you want to calculate:")
 print ("1. Check if number is positive, negative or zero")
 print ("2. Check if number is even or odd")
@@ -39,5 +50,5 @@ def pick():
     else:
         print ("Invalid choice. Please choose 1, 2 or 3.")
 
-choice = input("Please input your choice (1, 2 or 3): ")
+choice = input("Please input your choice: ")
 pick()
