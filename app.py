@@ -3,16 +3,17 @@ from modules import negativecheck as ng
 from modules import evenodd as eo
 from modules import grade as gr
 from modules import basiccalc as basic
+from rich.prompt import Prompt
 
 
 print("""
-   ░███    ░██         ░██           ░██████     ░███    ░██           ░██████  
-  ░██░██   ░██         ░██          ░██   ░██   ░██░██   ░██          ░██   ░██ 
- ░██  ░██  ░██         ░██         ░██         ░██  ░██  ░██         ░██        
+   ░███    ░██         ░██           ░██████      ░██     ░██          ░██████  
+  ░██░██   ░██         ░██          ░██   ░██   ░██ ░██   ░██         ░██   ░██ 
+ ░██  ░██  ░██         ░██         ░██         ░██   ░██  ░██         ░██        
 ░█████████ ░██         ░██         ░██         ░█████████ ░██         ░██        
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
-░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████ 
+░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
 V 1.0.1
 By Denis Varga made with <3 and code in Python 3.11.4
 
@@ -24,7 +25,7 @@ print ("3. Check your grade")
 print ("4. Basic calcualtor shell")
 print ("Q. Exit the program")
 
-def pick():
+def pick(choice):
 
     if choice == "1":
         print ("You have chosen negative/positive chceker please provide you number")
@@ -50,5 +51,6 @@ def pick():
     else:
         print ("Invalid choice. Please choose 1, 2 or 3.")
 
-choice = input("Please input your choice: ")
-pick()
+while True:
+    choice = Prompt.ask("[bold dark_green]Please input your choice[/bold dark_green]")
+    pick(choice)
