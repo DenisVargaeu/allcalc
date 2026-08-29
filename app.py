@@ -5,6 +5,7 @@ from modules import grade as gr
 from modules import basiccalc as basic
 from modules import surface as su
 from rich.prompt import Prompt
+import time
 
 
 print("""
@@ -15,7 +16,7 @@ print("""
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
 ░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
-V 2.0.0
+V 2.1.0
 By Denis Varga made with <3 and code in Python 3.11.4
 
 """)
@@ -49,6 +50,8 @@ def pick(choice):
         su.run()
     elif choice == "Q" or choice == "q":
         print ("Exiting the program. Goodbye!")
+        time.sleep(2)
+        basic.clear_screen()
         exit()
     elif choice == "DEBUG" or choice == "debug":  # debug secret
         print("Debug mode activated.")

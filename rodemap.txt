@@ -18,19 +18,17 @@ ALLCALC ROADMAP
 [ ] Power / Root Calculator
 
 [GEOMETRY]
-[/] Surface Calculator
+[*] Surface Calculator
     [*] Cube
     [*] Cuboid
-    [ ] Sphere
-    [ ] Cylinder
-    [ ] Cone
+    [*] Sphere
+    [*] Cylinder
 
 [ ] Volume Calculator
     [ ] Cube
     [ ] Cuboid
     [ ] Sphere
     [ ] Cylinder
-    [ ] Cone
 
 [ ] Pythagoras Calculator
 [ ] Triangle Calculator
