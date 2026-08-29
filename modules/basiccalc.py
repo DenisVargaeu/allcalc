@@ -1,6 +1,10 @@
 import os 
 import time
 from simpleeval import simple_eval
+from rich.console import Console
+
+
+console = Console()
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')    
@@ -10,7 +14,7 @@ clear_screen()
     
 def shell():
     while True:
-        expresion = input("BasicCalc> ")
+        expresion = console.input("[bold #2563EB]BasicCalc> [/bold #2563EB]")
         if expresion.lower() == "exit":
             print("Exiting BasicCalc shell.")
             print("Good bye! Have a nice day!")
@@ -18,11 +22,10 @@ def shell():
         elif expresion.lower() == "help":
             print("BasicCalc shell allows you to perform basic calculations.")
             print("You can enter mathematical expressions using operators like +, -, *, /, and parentheses.")
-            print("For example: 2 + 3 * (4 - 1)")
-            print("Type 'exit' to exit the shell.")
-            print("Type 'clear' to clear the screen.")
-            print("Type 'back' to return to the main menu.")
-            print("Type 'help' to see this message again.")
+            console.print("[bold #1E3A8A]Type 'exit'[/bold #1E3A8A] to exit the shell.")
+            console.print("[bold #1E3A8A]Type 'clear'[/bold #1E3A8A] to clear the screen.")
+            console.print("[bold #1E3A8A]Type 'back'[/bold #1E3A8A] to return to the main menu.")
+            console.print("[bold #1E3A8A]Type 'help'[/bold #1E3A8A] to see this message again.")
         elif expresion.strip() == "":
             continue  # Ignore empty input
         elif expresion.lower() == "clear":
