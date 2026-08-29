@@ -18,9 +18,9 @@ ALLCALC ROADMAP
 [ ] Power / Root Calculator
 
 [GEOMETRY]
-[ ] Surface Calculator
-    [ ] Cube
-    [ ] Cuboid
+[/] Surface Calculator
+    [*] Cube
+    [*] Cuboid
     [ ] Sphere
     [ ] Cylinder
     [ ] Cone

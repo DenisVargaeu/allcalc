@@ -3,6 +3,7 @@ from modules import negativecheck as ng
 from modules import evenodd as eo
 from modules import grade as gr
 from modules import basiccalc as basic
+from modules import surface as su
 from rich.prompt import Prompt
 
 
@@ -14,7 +15,7 @@ print("""
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
 ░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
-V 1.0.1
+V 2.0.0
 By Denis Varga made with <3 and code in Python 3.11.4
 
 """)
@@ -23,6 +24,7 @@ print ("1. Check if number is positive, negative or zero")
 print ("2. Check if number is even or odd")
 print ("3. Check your grade")   
 print ("4. Basic calcualtor shell")
+print ("5. Surface calculator")
 print ("Q. Exit the program")
 
 def pick(choice):
@@ -42,12 +44,15 @@ def pick(choice):
     elif choice == "4":
         print ("You have chosen basic calculator shell")
         basic.calc()
+    elif choice == "5":
+        print ("You have chosen Surface Calculator")
+        su.run()
     elif choice == "Q" or choice == "q":
         print ("Exiting the program. Goodbye!")
         exit()
     elif choice == "DEBUG" or choice == "debug":  # debug secret
         print("Debug mode activated.")
-        basic.calc()
+        su.run()
     else:
         print ("Invalid choice. Please choose 1, 2 or 3.")
 
