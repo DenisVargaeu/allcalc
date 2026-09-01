@@ -1,2 +1,61 @@
+```gitignore
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Python packaging
+pip-wheel-metadata/
+
+# Secrets / environment variables
+.env
+.env.*
+
+# PyInstaller
+*.spec
+
+# Project generated files
+reports/
+output/
+```
+app

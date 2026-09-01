@@ -33,7 +33,8 @@ def shell():
         elif expresion.lower() == "back":
             print("Returning to main menu.")
             return
-        
+        elif expresion.lower() == "ai":
+            print ("No ai used in this project and none will be :)")
         
         else:
             try:
