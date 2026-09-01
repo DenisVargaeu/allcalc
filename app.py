@@ -6,6 +6,7 @@ from modules import basiccalc as basic
 from modules import surface as su
 from rich.prompt import Prompt
 import time
+from modules import settings as st
 
 
 print("""
@@ -16,7 +17,7 @@ print("""
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
 ░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
-V 2.1.0
+V 2.1.1
 By Denis Varga made with <3 and code in Python 3.11.4
 
 """)
@@ -26,6 +27,7 @@ print ("2. Check if number is even or odd")
 print ("3. Check your grade")   
 print ("4. Basic calcualtor shell")
 print ("5. Surface calculator")
+print ("SET. Settings")
 print ("Q. Exit the program")
 
 def pick(choice):
@@ -56,6 +58,8 @@ def pick(choice):
     elif choice == "DEBUG" or choice == "debug":  # debug secret
         print("Debug mode activated.")
         su.run()
+    elif choice == "SET" or choice == "set":
+        st.run()
     else:
         print ("Invalid choice. Please choose 1, 2 or 3.")
 
