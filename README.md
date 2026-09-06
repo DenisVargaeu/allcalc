@@ -1,43 +1,38 @@
 # ALLCALC
 
 ```text
-   ░███    ░██         ░██           ░██████     ░███    ░██           ░██████  
-  ░██░██   ░██         ░██          ░██   ░██   ░██░██   ░██          ░██   ░██ 
- ░██  ░██  ░██         ░██         ░██         ░██  ░██  ░██         ░██        
+   ░███    ░██         ░██           ░██████     ░███     ░██           ░██████  
+  ░██░██   ░██         ░██          ░██   ░██   ░██ ░██   ░██          ░██   ░██ 
+ ░██  ░██  ░██         ░██         ░██         ░██   ░██  ░██         ░██        
 ░█████████ ░██         ░██         ░██         ░█████████ ░██         ░██        
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 1.0.0**
+**Version 3.0.0**
 
 ### Modular Python calculator, fully CLI, lightweight, and fast.
 
+## Modules
+
+* Basic Calculator Shell | /modules/basiccalc.py
+* Even or odd number chceker | /modules/evenodd.py
+* Grade chcker | /modules/grade.py
+* Negative number checker | /modules/negativecheck.py
+* Surface calculator| /modules/surface.py
+
 ## Features
 
-### Basic Calculator
+* I18n localiztion
+* modular system 
+* easy to read code
+* setting to edit language and more features coming soon
+* config file to store config for now jut language 
 
-A simple and fast calculator that runs directly in the terminal.
-
-```text
-BasicCalc> 10+20/12
-Result: 11.666666666666666
-
-BasicCalc> 5*8
-Result: 40
-```
-
-Supports basic mathematical expressions, parentheses, and error handling.
-
-### Positive / Negative / Zero Checker
-
-Checks whether a number is positive, negative, or zero.
-
-### Even / Odd Checker
-
-Checks whether a number is even or odd.
-
-### Grade Checker
-
-Enter a score and ALLCALC will determine the corresponding grade.
+## Languages 
+* sk - slovak
+* en - English
+* de - Deutch
+##### Feel free to contribute 
+### code made with code and <3 by Denis Varga
