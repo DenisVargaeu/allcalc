@@ -7,6 +7,9 @@ from modules import surface as su
 from rich.prompt import Prompt
 import time
 from modules import settings as st
+from modules.i18n import I18n
+
+i18n = I18n("sk")
 
 
 print("""
@@ -21,14 +24,15 @@ V 2.1.1
 By Denis Varga made with <3 and code in Python 3.11.4
 
 """)
-print ("Please choose what you want to calculate:")
-print ("1. Check if number is positive, negative or zero")
-print ("2. Check if number is even or odd")
-print ("3. Check your grade")   
-print ("4. Basic calcualtor shell")
-print ("5. Surface calculator")
-print ("SET. Settings")
-print ("Q. Exit the program")
+print (i18n.get("textonpick.main"))
+print (i18n.get("1.main.pick"))
+print (i18n.get("2.main.pick"))
+print (i18n.get("3.main.pick"))
+print (i18n.get("4.main.pick"))
+print (i18n.get("5.main.pick"))
+print (i18n.get("set.main.pick"))
+print (i18n.get("quit.main.pick"))
+
 
 def pick(choice):
 

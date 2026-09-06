@@ -1,0 +1,10 @@
+{
+    "textonpick.main": "Vyberte, čo chcete vypočítať:",
+    "1.main.pick": "1. Zistiť, či je číslo kladné, záporné alebo nula",
+    "2.main.pick": "2. Zistiť, či je číslo párne alebo nepárne",
+    "3.main.pick": "3. Skontrolovať známku",
+    "4.main.pick": "4. Shell základnej kalkulačky",
+    "5.main.pick": "5. Kalkulačka povrchu",
+    "set.main.pick": "SET. Nastavenia",
+    "quit.main.pick": "Q. Ukončiť program"
+}
