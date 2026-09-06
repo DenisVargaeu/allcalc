@@ -1,0 +1,44 @@
+{
+    "textonpick.main": "Please choose what you want to calculate:",
+    "1.main.pick": "1. Check if number is positive, negative or zero",
+    "2.main.pick": "2. Check if number is even or odd",
+    "3.main.pick": "3. Check your grade",
+    "4.main.pick": "4. Basic calculator shell",
+    "5.main.pick": "5. Surface calculator",
+
+    "set.main.pick": "SET. Settings",
+    "quit.main.pick": "Q. Exit the program",
+
+    "pls.provide.pos.neg.main": "You have chosen negative/positive checker. Please provide your number",
+    "pls.num.inp.main": "Please input a number: ",
+
+    "pls.provide.even.odd.main": "You have chosen even/odd checker. Please provide your number",
+    "pls.provide.grade.main": "You have chosen grade checker. Please provide your score",
+    "pls.score.inp.main": "Please input your score: ",
+
+    "choose.basic.calc.main": "You have chosen basic calculator shell",
+    "choose.surface.calc.main": "You have chosen Surface Calculator",
+
+    "exit.msg": "Goodbye! Have a nice day!",
+    "debug.msg": "Debug mode activated.",
+    "invalid.choice.msg": "Invalid choice. Please choose 1, 2 or 3.",
+    "input.choice.msg": "Please input your choice",
+
+    "is.even": "is even number",
+    "is.odd": "is odd number",
+    "number": "number",
+
+    "grade.exel": "Excellent",
+    "grade.very.good": "Very Good",
+    "grade.good": "Good",
+    "grade.faild": "Failed",
+    "grade.invalid": "Score is in invalid range",
+    "grade.score": "Score",
+    "grade.is": "Is",
+
+    "pls.pick.settings.main": "Please pick what you want to edit",
+    "language.settings": "Language",
+    "enter.choice.settings": "Enter your choice: ",
+    "enter.lang.settings": "Enter the language you want to switch to: ",
+    "ave.lang.settings": "Available languages are:"
+}

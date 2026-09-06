@@ -23,3 +23,6 @@ class I18n:
             text = text.format(**kwargs)
 
         return text
+    def getalllang(self):
+        path = Path(__file__).parent / "language"
+        return [file.stem for file in path.glob("*.json")]

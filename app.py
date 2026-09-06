@@ -8,8 +8,13 @@ from rich.prompt import Prompt
 import time
 from modules import settings as st
 from modules.i18n import I18n
+from modules import config as cfg
 
-i18n = I18n("sk")
+
+
+lang = cfg.load_language()  
+
+i18n = I18n(lang)
 
 
 print("""
@@ -35,6 +40,7 @@ print (i18n.get("quit.main.pick"))
 
 
 def pick(choice):
+    global lang
 
     if choice == "1":
         print (i18n.get("pls.provide.pos.neg.main"))
@@ -43,11 +49,11 @@ def pick(choice):
     elif choice == "2":
         print (i18n.get("pls.provide.even.odd.main"))
         number = float(input(i18n.get("pls.num.inp.main")))
-        eo.check(number)
+        eo.check(number, lang)
     elif choice == "3":
         print (i18n.get("pls.provide.grade.main"))
         score = float(input(i18n.get("pls.score.inp.main")))
-        gr.check(score)
+        gr.check(score, lang)
     elif choice == "4":
         print (i18n.get("choose.basic.calc.main"))
         basic.calc()
@@ -63,7 +69,7 @@ def pick(choice):
         print(i18n.get("debug.msg"))
         su.run()
     elif choice == "SET" or choice == "set":
-        st.run()
+        st.run(lang)
     else:
         print(i18n.get("invalid.choice.msg"))
 

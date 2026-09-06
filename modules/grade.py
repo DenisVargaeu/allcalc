@@ -1,13 +1,15 @@
-def check (score):
+from .i18n import I18n
+def check (score, language ):
+    i18n = I18n(language)
     if score >= 90:
-        grade = "Excellent"
+        grade = i18n.get("grade.exel")
     elif score >= 75:
-        grade = "Very Good"
+        grade = i18n.get("grade.very.good")
     elif score >= 50:
-        grade = "Good"
+        grade = i18n.get("grade.good")
     elif score >= 0:
-        grade = "Faild"
+        grade = i18n.get("grade.failed")
     else:
-        grade = "Invalid score"
-    print (f"Score {score} is {grade}")
+        grade = i18n.get("grade.invalid")
+    print (f"{i18n.get('grade.score')} {score} {i18n.get('grade.is')} {grade}")#SCORE = grade.score IS = grade.is
     return 

@@ -9,11 +9,10 @@
     "set.main.pick": "SET. Nastavenia",
     "quit.main.pick": "Q. Ukončiť program",
 
-    "pls.provide.pos.neg.main": "Vybrali ste kontrolu kladného/záporného čísla. Zadajte číslo",
+    "pls.provide.pos.neg.main": "Vybrali ste kontrolu kladného/záporného čísla. Zadajte svoje číslo",
     "pls.num.inp.main": "Zadajte číslo: ",
 
-    "pls.provide.even.odd.main": "Vybrali ste kontrolu párneho/nepárneho čísla. Zadajte číslo",
-
+    "pls.provide.even.odd.main": "Vybrali ste kontrolu párneho/nepárneho čísla. Zadajte svoje číslo",
     "pls.provide.grade.main": "Vybrali ste kontrolu známky. Zadajte svoje skóre",
     "pls.score.inp.main": "Zadajte svoje skóre: ",
 
@@ -22,7 +21,24 @@
 
     "exit.msg": "Dovidenia! Prajem pekný deň!",
     "debug.msg": "Režim ladenia aktivovaný.",
-
     "invalid.choice.msg": "Neplatná voľba. Vyberte 1, 2 alebo 3.",
-    "input.choice.msg": "Zadajte svoju voľbu"
+    "input.choice.msg": "Zadajte svoju voľbu",
+
+    "is.even": "je párne číslo",
+    "is.odd": "je nepárne číslo",
+    "number": "číslo",
+
+    "grade.exel": "Výborný",
+    "grade.very.good": "Veľmi dobrý",
+    "grade.good": "Dobrý",
+    "grade.faild": "Nedostatočný",
+    "grade.invalid": "Skóre je mimo platného rozsahu",
+    "grade.score": "Skóre",
+    "grade.is": "Je",
+
+    "pls.pick.settings.main": "Vyberte, čo chcete upraviť",
+    "language.settings": "Jazyk",
+    "enter.choice.settings": "Zadajte svoju voľbu: ",
+    "enter.lang.settings": "Zadajte jazyk, na ktorý chcete prepnúť: ",
+    "ave.lang.settings": "Dostupné jazyky sú:"
 }

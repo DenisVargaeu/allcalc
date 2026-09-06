@@ -19,3 +19,28 @@ exit.msg = "Good bye! Have a nice day!"
 debug.msg = "Debug mode activated."
 invalid.choice.msg = "Invalid choice. Please choose 1, 2 or 3."
 input.choice.msg = "Please input your choice"
+
+
+modules/evenodd.py
+
+is.even = "is even number"
+is.odd = "is odd number"
+number = "number"
+
+modules/grade.py
+
+grade.exel = "Excellent"
+grade.very.good = "Very Good"
+grade.good = "Good"
+grade.faild = "Faild"
+grade.invalid = "Score in inalid range"
+grade.score = "Score"
+grade.is = "Is"
+
+modules/settings.py
+
+pls.pick.settings.main = "Please pick what you wonna edit "
+language.settings = "Language"
+enter.choice.settings = "Enter your choice: "
+enter.lang.settings  =  "Enter the language you want to switch to: "
+ave.lang.settings = "Available languages are: "
