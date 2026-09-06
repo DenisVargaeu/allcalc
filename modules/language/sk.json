@@ -5,6 +5,24 @@
     "3.main.pick": "3. Skontrolovať známku",
     "4.main.pick": "4. Shell základnej kalkulačky",
     "5.main.pick": "5. Kalkulačka povrchu",
+
     "set.main.pick": "SET. Nastavenia",
-    "quit.main.pick": "Q. Ukončiť program"
+    "quit.main.pick": "Q. Ukončiť program",
+
+    "pls.provide.pos.neg.main": "Vybrali ste kontrolu kladného/záporného čísla. Zadajte číslo",
+    "pls.num.inp.main": "Zadajte číslo: ",
+
+    "pls.provide.even.odd.main": "Vybrali ste kontrolu párneho/nepárneho čísla. Zadajte číslo",
+
+    "pls.provide.grade.main": "Vybrali ste kontrolu známky. Zadajte svoje skóre",
+    "pls.score.inp.main": "Zadajte svoje skóre: ",
+
+    "choose.basic.calc.main": "Vybrali ste shell základnej kalkulačky",
+    "choose.surface.calc.main": "Vybrali ste kalkulačku povrchu",
+
+    "exit.msg": "Dovidenia! Prajem pekný deň!",
+    "debug.msg": "Režim ladenia aktivovaný.",
+
+    "invalid.choice.msg": "Neplatná voľba. Vyberte 1, 2 alebo 3.",
+    "input.choice.msg": "Zadajte svoju voľbu"
 }

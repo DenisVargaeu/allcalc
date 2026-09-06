@@ -8,7 +8,14 @@ textonpick.main = "Please choose what you want to calculate:"
 5.main.pick = "5. Surface calculator"
 set.main.pick = "SET. Settings"
 quit.main.pick = "Q. Exit the program"
-
-
-
-
+pls.provide.pos.neg.main = "You have chosen negative/positive chceker please provide you number"
+pls.num.inp.main = "Please input a number: "
+pls.provide.even.odd.main = "You have chosen even/odd chceker please provide you number"
+pls.provide.grade.main = "You have chosen grade checker please provide you score"
+pls.score.inp.main = "Please input your score: "
+choose.basic.calc.main = "You have chosen basic calculator shell"
+choose.surface.calc.main = "You have chosen Surface Calculator"
+exit.msg = "Good bye! Have a nice day!"
+debug.msg = "Debug mode activated."
+invalid.choice.msg = "Invalid choice. Please choose 1, 2 or 3."
+input.choice.msg = "Please input your choice"

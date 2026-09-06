@@ -37,36 +37,36 @@ print (i18n.get("quit.main.pick"))
 def pick(choice):
 
     if choice == "1":
-        print ("You have chosen negative/positive chceker please provide you number")
-        number = float(input("Please input a number: "))
+        print (i18n.get("pls.provide.pos.neg.main"))
+        number = float(input(i18n.get("pls.num.inp.main")))
         ng.check(number)
     elif choice == "2":
-        print ("You have chosen even/odd chceker please provide you number")    
-        number = float(input("Please input a number: "))
+        print (i18n.get("pls.provide.even.odd.main"))
+        number = float(input(i18n.get("pls.num.inp.main")))
         eo.check(number)
     elif choice == "3":
-        print ("You have chosen grade checker please provide you score")
-        score = float(input("Please input your score: "))
+        print (i18n.get("pls.provide.grade.main"))
+        score = float(input(i18n.get("pls.score.inp.main")))
         gr.check(score)
     elif choice == "4":
-        print ("You have chosen basic calculator shell")
+        print (i18n.get("choose.basic.calc.main"))
         basic.calc()
     elif choice == "5":
-        print ("You have chosen Surface Calculator")
+        print (i18n.get("choose.surface.calc.main"))
         su.run()
     elif choice == "Q" or choice == "q":
-        print ("Exiting the program. Goodbye!")
+        print (i18n.get("exit.msg"))
         time.sleep(2)
         basic.clear_screen()
         exit()
-    elif choice == "DEBUG" or choice == "debug":  # debug secret
-        print("Debug mode activated.")
+    elif choice == "DEBUG" or choice == "debug":
+        print(i18n.get("debug.msg"))
         su.run()
     elif choice == "SET" or choice == "set":
         st.run()
     else:
-        print ("Invalid choice. Please choose 1, 2 or 3.")
+        print(i18n.get("invalid.choice.msg"))
 
 while True:
-    choice = Prompt.ask("[bold dark_green]Please input your choice[/bold dark_green]")
+    choice = Prompt.ask(f"[bold dark_green]{i18n.get('input.choice.msg')}[/bold dark_green]")
     pick(choice)
