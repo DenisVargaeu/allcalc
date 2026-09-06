@@ -2,7 +2,7 @@ import os
 import time
 from simpleeval import simple_eval
 from rich.console import Console
-
+from . import basic as bs 
 
 console = Console()
 
@@ -32,7 +32,7 @@ def shell():
             clear_screen()
         elif expresion.lower() == "back":
             print("Returning to main menu.")
-            return
+            bs.restart_app()
         elif expresion.lower() == "ai":
             print ("No ai used in this project and none will be :) But ai features coming soon")
         

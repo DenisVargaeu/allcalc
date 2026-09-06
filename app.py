@@ -1,15 +1,16 @@
-
+# math modules
 from modules import negativecheck as ng
 from modules import evenodd as eo
 from modules import grade as gr
 from modules import basiccalc as basic
 from modules import surface as su
-from rich.prompt import Prompt
-import time
 from modules import settings as st
+# config
 from modules.i18n import I18n
 from modules import config as cfg
-
+# misc 
+from rich.prompt import Prompt
+import time
 
 
 lang = cfg.load_language()  
@@ -25,7 +26,7 @@ print("""
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
 ░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
-V 3.0.0
+V 3.0.1
 By Denis Varga made with <3 and code in Python 3.11.4
 
 """)
