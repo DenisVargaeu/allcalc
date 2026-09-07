@@ -35,4 +35,4 @@
 * en - English
 * de - Deutch
 ##### Feel free to contribute 
-### code made with code and <3 by Denis Varga
+###  made with code and <3 by Denis Varga
