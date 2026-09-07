@@ -49,6 +49,7 @@ ALLCALC ROADMAP
 [ ] Logarithms
 
 [CUSTOMIZATION]
+[ ] Dark / light / color themes
 [ ] Module-specific customization
 [ ] Custom grading system
 [ ] Custom units
