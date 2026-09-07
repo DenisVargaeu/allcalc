@@ -1,10 +1,13 @@
-def check (number):
+from .i18n import I18n
+
+def check (number, language):
+    i18n = I18n(language)
     if number > 0:
-        print (f"Number {number} is positive number")
+        print (f"{i18n.get('number')} {number} {i18n.get('positive.negposcheck')}")#Number= number 
         return
     elif number < 0:
-        print (f"Number {number} is negative number")
+        print (f"{i18n.get('number')} {number} {i18n.get('negative.negposcheck')}   ")
         return
     elif number == 0:
-        print (f"Number {number} is zero")
+        print (f"{i18n.get('number')} {number} {i18n.get('zero.negposcheck')}")
         return

@@ -12,21 +12,20 @@ from modules import config as cfg
 from rich.prompt import Prompt
 import time
 
-
+version = "3.1.1"
 lang = cfg.load_language()  
-
 i18n = I18n(lang)
 
 
-print("""
-   ░███    ░██         ░██           ░██████      ░██     ░██          ░██████  
-  ░██░██   ░██         ░██          ░██   ░██   ░██ ░██   ░██         ░██   ░██ 
+print(f"""
+   ░███    ░██         ░██           ░██████      ░██     ░██           ░██████  
+  ░██░██   ░██         ░██          ░██   ░██   ░██ ░██   ░██          ░██   ░██ 
  ░██  ░██  ░██         ░██         ░██         ░██   ░██  ░██         ░██        
 ░█████████ ░██         ░██         ░██         ░█████████ ░██         ░██        
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
 ░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
-V 3.0.1
+V {version}
 By Denis Varga made with <3 and code in Python 3.11.4
 
 """)
@@ -46,7 +45,7 @@ def pick(choice):
     if choice == "1":
         print (i18n.get("pls.provide.pos.neg.main"))
         number = float(input(i18n.get("pls.num.inp.main")))
-        ng.check(number)
+        ng.check(number , lang)
     elif choice == "2":
         print (i18n.get("pls.provide.even.odd.main"))
         number = float(input(i18n.get("pls.num.inp.main")))
@@ -60,7 +59,7 @@ def pick(choice):
         basic.calc()
     elif choice == "5":
         print (i18n.get("choose.surface.calc.main"))
-        su.run()
+        su.run(lang)
     elif choice == "Q" or choice == "q":
         print (i18n.get("exit.msg"))
         time.sleep(2)

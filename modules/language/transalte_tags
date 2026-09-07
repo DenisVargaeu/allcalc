@@ -44,3 +44,29 @@ language.settings = "Language"
 enter.choice.settings = "Enter your choice: "
 enter.lang.settings  =  "Enter the language you want to switch to: "
 ave.lang.settings = "Available languages are: "
+
+modules/negativecheck.py
+
+positive.negposcheck = "is positive number"
+negative.negposcheck = "is negative number"
+zero.negposcheck = "is zero"
+
+
+modules/surface.py
+
+y.have.select = "You have selected"
+pls.enter.length = "Please enter length of side "
+pls.enter.radius = "Please enter radius of "
+pls.enter.height = "Please enter height of "
+is = "Is"
+ans.cube.surface = "Surface area of cube with side length "
+ans.cuboid.surface = "Surface area of cuboid with side lengths "
+ans.sphere.surface = "Surface area of sphere with radius"
+ans.cylinder.surface = "Surface area of cylinder with radius"
+a.height = "and height"
+cube = "Cube"
+cuboid = "Cuboid"
+sphere = "Sphere" 
+cylinder "Cylinder"
+pls.select.shape = "Please select a shape:"
+pls.enter.unit = Please enter the unit (cm/mm/m): 

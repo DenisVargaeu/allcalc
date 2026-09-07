@@ -8,7 +8,7 @@ def check (score, language ):
     elif score >= 50:
         grade = i18n.get("grade.good")
     elif score >= 0:
-        grade = i18n.get("grade.failed")
+        grade = i18n.get("grade.faild")
     else:
         grade = i18n.get("grade.invalid")
     print (f"{i18n.get('grade.score')} {score} {i18n.get('grade.is')} {grade}")#SCORE = grade.score IS = grade.is
