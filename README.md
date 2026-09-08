@@ -10,7 +10,7 @@
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 3.2.1**
+**Version 4.0.0**
 
 ### Modular Python calculator, fully CLI, lightweight, and fast.
 
