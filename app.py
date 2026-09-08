@@ -56,7 +56,7 @@ def pick(choice):
         gr.check(score, lang)
     elif choice == "4":
         print (i18n.get("choose.basic.calc.main"))
-        basic.calc()
+        basic.calc(lang)
     elif choice == "5":
         print (i18n.get("choose.surface.calc.main"))
         su.run(lang)

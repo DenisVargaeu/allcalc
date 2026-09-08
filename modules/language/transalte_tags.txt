@@ -69,4 +69,23 @@ cuboid = "Cuboid"
 sphere = "Sphere" 
 cylinder "Cylinder"
 pls.select.shape = "Please select a shape:"
-pls.enter.unit = Please enter the unit (cm/mm/m): 
+pls.enter.unit = Please enter the unit (cm/mm/m):
+
+/modules/basiccalc.py
+
+text.msg.shell = "BasicCalc shell allows you to perform basic calculations."
+help.msg.calc = "BasicCalc shell allows you to perform basic calculations."
+help.msg.exit = "to exit the shell."
+help.msg.clear = "to clear the screen."
+help.msg.back = "to return to the main menu."
+help.msg.help = "to see this message again."
+exit = "Exit"
+clear = "Clear"
+back = "Back"
+help = "Help"
+error = "Error: "
+back.msg.shell = "Returning to main menu."
+ai.msg.shell = "No ai used in this project and none will be :) But ai features coming soon"
+error.msg.shell = "Please enter a valid mathematical expression."
+welcome.msg.shell = "Welcome to BasicCalc shell"
+welcome.msg.shell2 = "For help type help and for exit type exit"
