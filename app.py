@@ -12,7 +12,7 @@ from modules import config as cfg
 from rich.prompt import Prompt
 import time
 
-version = "3.1.1"
+version = "3.2.1"
 lang = cfg.load_language()  
 i18n = I18n(lang)
 

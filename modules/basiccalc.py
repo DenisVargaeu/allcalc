@@ -16,7 +16,7 @@ clear_screen()
 def shell(language):
     i18n = I18n(language)
     while True:
-        expresion = console.input(f"[bold #2563EB]BasicCalc>[/bold #2563EB]")# prompt.shell
+        expresion = console.input(f"[bold #2563EB]BasicCalc> [/bold #2563EB]")# prompt.shell
         if expresion.lower() == 'exit':
             print(i18n.get('exit.msg.shell'))#exit.msg.shell
             print(i18n.get('exit.msg'))#exit.msg
