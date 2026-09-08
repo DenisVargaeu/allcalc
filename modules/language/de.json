@@ -68,5 +68,6 @@
   "error.msg.shell": "Bitte geben Sie einen gültigen mathematischen Ausdruck ein.",
   "welcome.msg.shell": "Willkommen in der BasicCalc-Shell",
   "welcome.msg.shell2": "Für Hilfe geben Sie help ein und zum Beenden exit",
-  "exit.msg.shell": "BasicCalc-Shell wird beendet."
+  "exit.msg.shell": "BasicCalc-Shell wird beendet.",
+  "help.msg.shell": "Die BasicCalc-Shell ermöglicht Ihnen die Durchführung grundlegender Berechnungen."
 }

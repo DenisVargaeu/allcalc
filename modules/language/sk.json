@@ -68,5 +68,6 @@
   "error.msg.shell": "Zadajte platný matematický výraz.",
   "welcome.msg.shell": "Vitajte v BasicCalc shelli",
   "welcome.msg.shell2": "Pre pomoc zadajte help a pre ukončenie zadajte exit",
-  "exit.msg.shell": "Ukončujem BasicCalc shell."
+  "exit.msg.shell": "Ukončujem BasicCalc shell.",
+  "help.msg.shell": "Shell BasicCalc vám umožňuje vykonávať základné výpočty."
 }

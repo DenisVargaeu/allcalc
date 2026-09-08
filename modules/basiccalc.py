@@ -22,7 +22,6 @@ def shell(language):
             print(i18n.get('exit.msg'))#exit.msg
             exit()
         elif expresion.lower() == "help":
-            print(i18n.get("help.msg.shell"))#help.msg.shell
             print(i18n.get("help.msg.calc"))#help.msg.calc
             console.print(f"[bold #1E3A8A]{i18n.get('exit')}[/bold #1E3A8A] {i18n.get('help.msg.exit')}")
             console.print(f"[bold #1E3A8A]{i18n.get('clear')}[/bold #1E3A8A] {i18n.get('help.msg.clear')}")

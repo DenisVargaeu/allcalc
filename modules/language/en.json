@@ -68,5 +68,6 @@
   "error.msg.shell": "Please enter a valid mathematical expression.",
   "welcome.msg.shell": "Welcome to BasicCalc shell",
   "welcome.msg.shell2": "For help type help and for exit type exit",
-  "exit.msg.shell": "Exiting BasicCalc shell."
+  "exit.msg.shell": "Exiting BasicCalc shell.",
+  "help.msg.shell": "BasicCalc shell allows you to perform basic calculations."
 }
