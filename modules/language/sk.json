@@ -69,5 +69,10 @@
   "welcome.msg.shell": "Vitajte v BasicCalc shelli",
   "welcome.msg.shell2": "Pre pomoc zadajte help a pre ukončenie zadajte exit",
   "exit.msg.shell": "Ukončujem BasicCalc shell.",
-  "help.msg.shell": "Shell BasicCalc vám umožňuje vykonávať základné výpočty."
+  "help.msg.shell": "Shell BasicCalc vám umožňuje vykonávať základné výpočty.",
+  "welcome.new": "Vitaj v AllCalc",
+  "new.msg.1": "Toto úvodné nastavenie ťa prevedie základným nastavením!",
+  "press.setup.new": "Stlač Enter pre spustenie nastavenia.",
+  "gtg.new": "OK, takže AllCalc môžeš používať :)",
+  "press.start.new": "Stlač Enter pre spustenie AllCalc."
 }

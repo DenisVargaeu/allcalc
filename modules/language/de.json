@@ -69,5 +69,10 @@
   "welcome.msg.shell": "Willkommen in der BasicCalc-Shell",
   "welcome.msg.shell2": "Für Hilfe geben Sie help ein und zum Beenden exit",
   "exit.msg.shell": "BasicCalc-Shell wird beendet.",
-  "help.msg.shell": "Die BasicCalc-Shell ermöglicht Ihnen die Durchführung grundlegender Berechnungen."
+  "help.msg.shell": "Die BasicCalc-Shell ermöglicht Ihnen die Durchführung grundlegender Berechnungen.",
+  "welcome.new": "Willkommen bei AllCalc",
+  "new.msg.1": "Diese Ersteinrichtung führt dich durch einige Grundeinstellungen!",
+  "press.setup.new": "Drücke Enter, um die Einrichtung zu starten.",
+  "gtg.new": "OK, dann kannst du AllCalc jetzt verwenden :)",
+  "press.start.new": "Drücke Enter, um AllCalc zu starten."
 }

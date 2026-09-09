@@ -69,5 +69,10 @@
   "welcome.msg.shell": "Welcome to BasicCalc shell",
   "welcome.msg.shell2": "For help type help and for exit type exit",
   "exit.msg.shell": "Exiting BasicCalc shell.",
-  "help.msg.shell": "BasicCalc shell allows you to perform basic calculations."
+  "help.msg.shell": "BasicCalc shell allows you to perform basic calculations.",
+  "welcome.new": "Welcome to AllCalc",
+  "new.msg.1": "This initial setup will guide you through some setup!",
+  "press.setup.new": "Press enter to start setup.",
+  "gtg.new": "OK, so you're good to go and use AllCalc :)",
+  "press.start.new": "Press enter to start AllCalc."
 }

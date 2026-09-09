@@ -89,3 +89,11 @@ ai.msg.shell = "No ai used in this project and none will be :) But ai features c
 error.msg.shell = "Please enter a valid mathematical expression."
 welcome.msg.shell = "Welcome to BasicCalc shell"
 welcome.msg.shell2 = "For help type help and for exit type exit"
+
+/modules/newusr.py
+
+welcome.new = "Welcom to AllCalc"
+new.msg.1 = "This initial setup will guide you trough some setup!"
+press.setup.new = "Press enter to start setup."
+gtg.new = "OK so youre good to go an use AllCalc :)"
+press.start.new "Press enter to start AllCalc."

@@ -55,4 +55,25 @@ def delete_active_option():
         if "active_option" in config:
             del config["active_option"]
         with open(config_path, "w", encoding="utf-8") as file:
+            json.dump(config, file, indent=4) 
+
+def new_user_check():
+    if config_path.exists():
+        with open(config_path, "r", encoding="utf-8") as file:
+            config = json.load(file)
+            return config.get("new", "default")
+    else:
+        with open(config_path, "w", encoding="utf-8") as file:
+            json.dump({"new": "default"}, file, indent=4)
+            return "default"
+def edit_new(option):
+    if config_path.exists():
+        with open(config_path, "r", encoding="utf-8") as file:
+            config = json.load(file)
+        config["new"] = option
+        with open(config_path, "w", encoding="utf-8") as file:
             json.dump(config, file, indent=4)
+    else:
+        with open(config_path, "w", encoding="utf-8") as file:
+            json.dump({"new": option}, file, indent=4)
+   

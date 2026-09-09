@@ -10,6 +10,7 @@ from modules import basic as bs
 from modules.i18n import I18n
 from modules import config as cfg
 from modules import printmenu as pm
+from modules import newusr as nw
 # misc 
 from rich.prompt import Prompt
 from rich.console import Console
@@ -20,6 +21,10 @@ lang = cfg.load_language()
 i18n = I18n(lang)
 console = Console(style="yellow")
 
+if cfg.new_user_check() == "1":
+    nw.nw(lang, version)
+else: 
+    print("67")
 
 
 pm.printmenu(lang, version)
@@ -102,7 +107,7 @@ def pick(choice, sk):
         st.restart_app()
 
     else:
-        print(i18n.get("invalid.choice.msg"))
+        print("")
 while True:
     if cfg.load_active_option() == "0":
         bs.clear_screen()
