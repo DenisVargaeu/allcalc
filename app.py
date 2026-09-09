@@ -5,6 +5,7 @@ from modules import grade as gr
 from modules import basiccalc as basic
 from modules import surface as su
 from modules import settings as st
+from modules import basic as bs
 # config
 from modules.i18n import I18n
 from modules import config as cfg
@@ -17,22 +18,11 @@ import time
 version = "4.0.0"
 lang = cfg.load_language()  
 i18n = I18n(lang)
-console = Console(style="white")
+console = Console(style="yellow")
 
 
-print(f"""
-   ░███    ░██         ░██           ░██████      ░██     ░██           ░██████  
-  ░██░██   ░██         ░██          ░██   ░██   ░██ ░██   ░██          ░██   ░██ 
- ░██  ░██  ░██         ░██         ░██         ░██   ░██  ░██         ░██        
-░█████████ ░██         ░██         ░██         ░█████████ ░██         ░██        
-░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
-░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
-░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
-V {version}
-By Denis Varga made with <3 and code in Python 3.11.4
 
-""")
-pm.printmenu(lang)
+pm.printmenu(lang, version)
 
 def pick(choice, sk):
     global lang
@@ -46,7 +36,8 @@ def pick(choice, sk):
             ng.check(number, lang)
         else:
             cfg.save_acive_option("1")
-            st.restart_app()
+            bs.clear_screen()
+            pm.printmenu(lang, version)
 
     elif choice == "2":
         print(i18n.get("pls.provide.even.odd.main"))
@@ -57,7 +48,8 @@ def pick(choice, sk):
             eo.check(number, lang)
         else:
             cfg.save_acive_option("2")
-            st.restart_app()
+            bs.clear_screen()
+            pm.printmenu(lang, version)
 
     elif choice == "3":
         print(i18n.get("pls.provide.grade.main"))
@@ -68,7 +60,8 @@ def pick(choice, sk):
             gr.check(score, lang)
         else:
             cfg.save_acive_option("3")
-            st.restart_app()
+            bs.clear_screen()
+            pm.printmenu(lang, version)
 
     elif choice == "4":
         print(i18n.get("choose.basic.calc.main"))
@@ -78,7 +71,8 @@ def pick(choice, sk):
             basic.calc(lang)
         else:
             cfg.save_acive_option("4")
-            st.restart_app()
+            bs.clear_screen()
+            pm.printmenu(lang, version)
 
     elif choice == "5":
         print(i18n.get("choose.surface.calc.main"))
@@ -88,7 +82,8 @@ def pick(choice, sk):
             su.run(lang)
         else:
             cfg.save_acive_option("5")
-            st.restart_app()
+            bs.clear_screen()
+            pm.printmenu(lang, version)
 
     elif choice == "Q" or choice == "q":
         print(i18n.get("exit.msg"))
@@ -110,6 +105,8 @@ def pick(choice, sk):
         print(i18n.get("invalid.choice.msg"))
 while True:
     if cfg.load_active_option() == "0":
+        bs.clear_screen()
+        pm.printmenu(lang, version)
         choice = Prompt.ask(f"[#1E3A8A]{i18n.get('input.choice.msg')}[/#1E3A8A]")
         pick(choice, 0)
     elif cfg.load_active_option() == "1":
