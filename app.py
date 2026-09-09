@@ -15,7 +15,7 @@ from rich.prompt import Prompt
 from rich.console import Console
 import time
 
-version = "4.0.0"
+version = "4.1.0"
 lang = cfg.load_language()  
 i18n = I18n(lang)
 console = Console(style="yellow")
