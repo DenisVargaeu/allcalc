@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "allcalc"
+version = "4.1.0"
+description = "A simple CLI calculator with multiple math tools"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    { name = "Denis Varga", email = "mail@denisvarga.eu" }
+]
+
+license = { file = "LICENSE" }
+
+dependencies = [
+    "rich",
+    "simpleeval"
+]
+
+[project.scripts]
+allcalc = "app:main"
+
+[tool.setuptools]
+py-modules = ["app"]
+
+[tool.setuptools.packages.find]
+include = ["modules*"]
+
+[tool.setuptools.package-data]
+modules = [
+    "language/*.json"
+]

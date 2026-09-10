@@ -34,5 +34,12 @@
 * sk - slovak
 * en - English
 * de - Deutch
+
+## How to install? 
+### 1.option via pip
+```bash
+pip install allcalc
+```
+#### And like this you good to go
 ##### Feel free to contribute 
 ###  made with code and <3 by Denis Varga
