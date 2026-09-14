@@ -10,7 +10,7 @@
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 4.1.0**
+**Version 4.2.0**
 
 ### Modular Python calculator, fully CLI, lightweight, and fast.
 
@@ -29,6 +29,8 @@
 * easy to read code
 * setting to edit language and more features coming soon
 * config file to store config for now jut language 
+* auto ascii for small screnn
+
 
 ## Languages 
 * sk - slovak
