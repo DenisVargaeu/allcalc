@@ -74,5 +74,6 @@
   "new.msg.1": "This initial setup will guide you through some setup!",
   "press.setup.new": "Press enter to start setup.",
   "gtg.new": "OK, so you're good to go and use AllCalc :)",
-  "press.start.new": "Press enter to start AllCalc."
+  "press.start.new": "Press enter to start AllCalc.",
+  "press.to.con": "Press Enter to continue"
 }

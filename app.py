@@ -48,6 +48,7 @@ def pick(choice, sk):
             number = float(input(i18n.get("pls.num.inp.main")))
             cfg.save_acive_option("0")
             ng.check(number, lang)
+            input (f"{i18n.get('press.to.con')}")
         else:
             cfg.save_acive_option("1")
             bs.clear_screen()
@@ -64,6 +65,7 @@ def pick(choice, sk):
             number = float(input(i18n.get("pls.num.inp.main")))
             cfg.save_acive_option("0")
             eo.check(number, lang)
+            input (f"{i18n.get('press.to.con')}")
         else:
             cfg.save_acive_option("2")
             bs.clear_screen()
@@ -80,6 +82,7 @@ def pick(choice, sk):
             score = float(input(i18n.get("pls.score.inp.main")))
             cfg.save_acive_option("0")
             gr.check(score, lang)
+            input (f"{i18n.get('press.to.con')}")
         else:
             cfg.save_acive_option("3")
             bs.clear_screen()
@@ -95,6 +98,7 @@ def pick(choice, sk):
         if sk == 1:
             cfg.save_acive_option("0")
             basic.calc(lang)
+            input (f"{i18n.get('press.to.con')}")
         else:
             cfg.save_acive_option("4")
             bs.clear_screen()
@@ -110,6 +114,7 @@ def pick(choice, sk):
         if sk == 1:
             cfg.save_acive_option("0")
             su.run(lang)
+            input (f"{i18n.get('press.to.con')}")
         else:
             cfg.save_acive_option("5")
             bs.clear_screen()
@@ -141,6 +146,7 @@ def pick(choice, sk):
 
 while True:
     if cfg.load_active_option() == "0":
+        
         bs.clear_screen()
 
         if terminal.columns <= 80:

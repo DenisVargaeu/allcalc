@@ -18,7 +18,7 @@ def printmenu(language, v, smascii):
 ░██    ░██ ░██         ░██         ░██         ░██    ░██ ░██         ░██        
 ░██    ░██ ░██         ░██          ░██   ░██  ░██    ░██ ░██          ░██   ░██ 
 ░██    ░██ ░████████   ░████████     ░██████   ░██    ░██ ░████████     ░██████ 
-V {v}g
+V {v}
 By Denis Varga made with <3 and code in Python 3.11.4
 
 """)
