@@ -1,3 +1,4 @@
+
 # math modules
 from modules import negativecheck as ng
 from modules import evenodd as eo
@@ -6,28 +7,36 @@ from modules import basiccalc as basic
 from modules import surface as su
 from modules import settings as st
 from modules import basic as bs
+
 # config
 from modules.i18n import I18n
 from modules import config as cfg
 from modules import printmenu as pm
 from modules import newusr as nw
-# misc 
+
+# misc
 from rich.prompt import Prompt
 from rich.console import Console
 import time
+import shutil
 
+terminal = shutil.get_terminal_size()
 version = "4.1.0"
-lang = cfg.load_language()  
+lang = cfg.load_language()
 i18n = I18n(lang)
 console = Console(style="yellow")
 
 if cfg.new_user_check() == "1":
     nw.nw(lang, version)
-else: 
+else:
     print("67")
 
 
-pm.printmenu(lang, version)
+if terminal.columns <= 80:
+    pm.printmenu(lang, version, 1)
+elif terminal.columns >= 81:
+    pm.printmenu(lang, version, 0)
+
 
 def pick(choice, sk):
     global lang
@@ -42,7 +51,11 @@ def pick(choice, sk):
         else:
             cfg.save_acive_option("1")
             bs.clear_screen()
-            pm.printmenu(lang, version)
+
+            if terminal.columns <= 80:
+                pm.printmenu(lang, version, 1)
+            elif terminal.columns >= 81:
+                pm.printmenu(lang, version, 0)
 
     elif choice == "2":
         print(i18n.get("pls.provide.even.odd.main"))
@@ -54,7 +67,11 @@ def pick(choice, sk):
         else:
             cfg.save_acive_option("2")
             bs.clear_screen()
-            pm.printmenu(lang, version)
+
+            if terminal.columns <= 80:
+                pm.printmenu(lang, version, 1)
+            elif terminal.columns >= 81:
+                pm.printmenu(lang, version, 0)
 
     elif choice == "3":
         print(i18n.get("pls.provide.grade.main"))
@@ -66,7 +83,11 @@ def pick(choice, sk):
         else:
             cfg.save_acive_option("3")
             bs.clear_screen()
-            pm.printmenu(lang, version)
+
+            if terminal.columns <= 80:
+                pm.printmenu(lang, version, 1)
+            elif terminal.columns >= 81:
+                pm.printmenu(lang, version, 0)
 
     elif choice == "4":
         print(i18n.get("choose.basic.calc.main"))
@@ -77,7 +98,11 @@ def pick(choice, sk):
         else:
             cfg.save_acive_option("4")
             bs.clear_screen()
-            pm.printmenu(lang, version)
+
+            if terminal.columns <= 80:
+                pm.printmenu(lang, version, 1)
+            elif terminal.columns >= 81:
+                pm.printmenu(lang, version, 0)
 
     elif choice == "5":
         print(i18n.get("choose.surface.calc.main"))
@@ -88,7 +113,11 @@ def pick(choice, sk):
         else:
             cfg.save_acive_option("5")
             bs.clear_screen()
-            pm.printmenu(lang, version)
+
+            if terminal.columns <= 80:
+                pm.printmenu(lang, version, 1)
+            elif terminal.columns >= 81:
+                pm.printmenu(lang, version, 0)
 
     elif choice == "Q" or choice == "q":
         print(i18n.get("exit.msg"))
@@ -108,19 +137,33 @@ def pick(choice, sk):
 
     else:
         print("")
+
+
 while True:
     if cfg.load_active_option() == "0":
         bs.clear_screen()
-        pm.printmenu(lang, version)
-        choice = Prompt.ask(f"[#1E3A8A]{i18n.get('input.choice.msg')}[/#1E3A8A]")
+
+        if terminal.columns <= 80:
+            pm.printmenu(lang, version, 1)
+        elif terminal.columns >= 81:
+            pm.printmenu(lang, version, 0)
+
+        choice = Prompt.ask(
+            f"[#1E3A8A]{i18n.get('input.choice.msg')}[/#1E3A8A]"
+        )
         pick(choice, 0)
+
     elif cfg.load_active_option() == "1":
         pick("1", 1)
+
     elif cfg.load_active_option() == "2":
         pick("2", 1)
+
     elif cfg.load_active_option() == "3":
         pick("3", 1)
+
     elif cfg.load_active_option() == "4":
         pick("4", 1)
+
     elif cfg.load_active_option() == "5":
         pick("5", 1)
