@@ -127,7 +127,6 @@ def pick(choice, sk):
 
     elif choice == "Q" or choice == "q":
         print(i18n.get("exit.msg"))
-        time.sleep(2)
         basic.clear_screen()
         exit()
 
