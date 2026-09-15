@@ -7,6 +7,7 @@ from modules import basiccalc as basic
 from modules import surface as su
 from modules import settings as st
 from modules import basic as bs
+from modules import percentage as pr
 
 # config
 from modules.i18n import I18n
@@ -132,7 +133,7 @@ def pick(choice, sk):
 
     elif choice == "DEBUG" or choice == "debug":
         print(i18n.get("debug.msg"))
-        su.run()
+        pr.run()
 
     elif choice == "SET" or choice == "set":
         st.run(lang)
