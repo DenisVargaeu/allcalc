@@ -42,6 +42,12 @@
 ```bash
 pip install allcalc
 ```
+
+## gallery 
+
+### Main menu
+![AllCalc main menu](screenshots/main.png)
+
 #### And like this you good to go
 ##### Feel free to contribute 
 ###  made with code and <3 by Denis Varga
