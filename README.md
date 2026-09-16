@@ -10,7 +10,7 @@
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 4.2.2**
+**Version 4.2.3**
 
 [![PyPI](https://img.shields.io/pypi/v/allcalc)](https://pypi.org/project/allcalc/)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
@@ -41,12 +41,31 @@
 * en - English
 * de - Deutch
 
-## How to install? 
+## How to install and run ? 
+### instalation
 ### 1.option via pip
 ```bash
 pip install allcalc
 ```
+Or 
+```bash
+python -m pip install allcalc
+```
+on linux 
+```bash
+pip install allcalc --break-system-packages
+```
+## Run
 
+```bash
+allcalc
+```
+
+
+(if python modules arent in path use )
+```bash
+python -m allcalc
+```
 ## gallery 
 
 ### Main menu
