@@ -12,6 +12,10 @@
 
 **Version 4.2.2**
 
+[![PyPI](https://img.shields.io/pypi/v/allcalc)](https://pypi.org/project/allcalc/)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/github/license/DenisVargaeu/allcalc)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/DenisVargaeu/allcalc)](https://github.com/DenisVargaeu/allcalc/issues)
 ### Modular Python calculator, fully CLI, lightweight, and fast.
 
 ## Modules
