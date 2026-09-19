@@ -10,7 +10,7 @@
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 4.2.3**
+**Version 4.2.5**
 
 [![PyPI](https://img.shields.io/pypi/v/allcalc)](https://pypi.org/project/allcalc/)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
@@ -59,6 +59,10 @@ pip install allcalc --break-system-packages
 
 ```bash
 allcalc
+```
+or 
+```bash
+ac
 ```
 
 
