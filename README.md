@@ -10,7 +10,7 @@
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 4.2.5**
+**Version 4.2.7**
 
 [![PyPI](https://img.shields.io/pypi/v/allcalc)](https://pypi.org/project/allcalc/)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
