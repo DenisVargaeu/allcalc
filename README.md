@@ -55,6 +55,11 @@ on linux
 ```bash
 pip install allcalc --break-system-packages
 ```
+### 2. option via install scriop
+```bash
+curl -fsSL https://raw.githubusercontent.com/DenisVargaeu/allcalc/refs/heads/main/install.sh | bash
+```
+! linux only !
 ## Run
 
 ```bash
