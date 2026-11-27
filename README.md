@@ -10,7 +10,7 @@
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 4.2.8**
+**Version 4.3.0**
 
 [![PyPI](https://img.shields.io/pypi/v/allcalc)](https://pypi.org/project/allcalc/)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
@@ -40,6 +40,7 @@
 * sk - slovak
 * en - English
 * de - Deutch
+* fr - Français
 
 ## How to install and run ? 
 ### instalation
