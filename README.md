@@ -10,7 +10,7 @@
 ░██    ░██ ░██████████ ░██████████   ░██████   ░██    ░██ ░██████████   ░██████  
 ```
 
-**Version 4.3.0**
+**Version 4.4.0**
 
 [![PyPI](https://img.shields.io/pypi/v/allcalc)](https://pypi.org/project/allcalc/)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
@@ -25,6 +25,7 @@
 * Grade chcker | /modules/grade.py
 * Negative number checker | /modules/negativecheck.py
 * Surface calculator| /modules/surface.py
+* Electricity calculator | /modules/elect.py
 
 ## Features
 

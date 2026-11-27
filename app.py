@@ -9,6 +9,7 @@ from modules import settings as st
 from modules import basic as bs
 from modules import cd as c
 from modules import percentage as pr
+from modules import elect as el
 
 # config
 from modules.i18n import I18n
@@ -23,7 +24,7 @@ import time
 import shutil
 
 terminal = shutil.get_terminal_size()
-version = "4.3.0"
+version = "4.4.0"
 lang = cfg.load_language()
 i18n = I18n(lang)
 console = Console(style="yellow")
@@ -44,6 +45,7 @@ def pick(choice, sk):
     global lang
 
     if choice == "1":
+        print("----------------------------------------------------")
         print(i18n.get("pls.provide.pos.neg.main"))
 
         if sk == 1:
@@ -61,6 +63,7 @@ def pick(choice, sk):
                 pm.printmenu(lang, version, 0)
 
     elif choice == "2":
+        print("----------------------------------------------------")
         print(i18n.get("pls.provide.even.odd.main"))
 
         if sk == 1:
@@ -78,6 +81,7 @@ def pick(choice, sk):
                 pm.printmenu(lang, version, 0)
 
     elif choice == "3":
+        print("----------------------------------------------------")
         print(i18n.get("pls.provide.grade.main"))
 
         if sk == 1:
@@ -95,6 +99,7 @@ def pick(choice, sk):
                 pm.printmenu(lang, version, 0)
 
     elif choice == "4":
+        print("----------------------------------------------------")
         print(i18n.get("choose.basic.calc.main"))
 
         if sk == 1:
@@ -111,6 +116,7 @@ def pick(choice, sk):
                 pm.printmenu(lang, version, 0)
 
     elif choice == "5":
+        print("----------------------------------------------------")
         print(i18n.get("choose.surface.calc.main"))
 
         if sk == 1:
@@ -119,6 +125,22 @@ def pick(choice, sk):
             input (f"{i18n.get('press.to.con')}")
         else:
             cfg.save_acive_option("5")
+            bs.clear_screen()
+
+            if terminal.columns <= 80:
+                pm.printmenu(lang, version, 1)
+            elif terminal.columns >= 81:
+                pm.printmenu(lang, version, 0)
+    elif choice == "6":
+        print("----------------------------------------------------")
+        print(i18n.get("choose.elect.main"))
+
+        if sk == 1:
+            cfg.save_acive_option("0")
+            el.run(lang)
+            input (f"{i18n.get('press.to.con')}")
+        else:
+            cfg.save_acive_option("6")
             bs.clear_screen()
 
             if terminal.columns <= 80:
@@ -158,6 +180,7 @@ while True:
         choice = Prompt.ask(
             f"[#1E3A8A]{i18n.get('input.choice.msg')}[/#1E3A8A]"
         )
+        
         pick(choice, 0)
 
     elif cfg.load_active_option() == "1":
@@ -174,3 +197,6 @@ while True:
 
     elif cfg.load_active_option() == "5":
         pick("5", 1)
+        
+    elif cfg.load_active_option() == "6":
+        pick("6", 1)

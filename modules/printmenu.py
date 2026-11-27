@@ -53,6 +53,10 @@ By Denis Varga made with <3 and code in Python 3.11.4
         console.print (f"[#1E3A8A]{i18n.get('5.main.pick')}[/#1E3A8A]")
     else:
         print (i18n.get("5.main.pick"))
+    if cfg.load_active_option() == "6":
+        console.print (f"[#1E3A8A]{i18n.get('6.main.pick')}[/#1E3A8A]")
+    else:
+        print (i18n.get("6.main.pick"))
     print (i18n.get("set.main.pick"))
     print (i18n.get("quit.main.pick"))
     
