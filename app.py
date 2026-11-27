@@ -7,6 +7,7 @@ from modules import basiccalc as basic
 from modules import surface as su
 from modules import settings as st
 from modules import basic as bs
+from modules import cd as c
 from modules import percentage as pr
 
 # config
@@ -22,7 +23,7 @@ import time
 import shutil
 
 terminal = shutil.get_terminal_size()
-version = "4.2.7"
+version = "4.2.8"
 lang = cfg.load_language()
 i18n = I18n(lang)
 console = Console(style="yellow")
