@@ -82,6 +82,9 @@ python -m allcalc
 ### Main menu
 ![AllCalc main menu](screenshots/main.png)
 
+## AI Disclaimer
+All core logic and calculator modules in this project are written by me. AI was used only to help with repetitive tasks such as translations, translation tagging, and JSON configuration.
+
 #### And like this you good to go
 ##### Feel free to contribute 
 ###  made with code and <3 by Denis Varga
