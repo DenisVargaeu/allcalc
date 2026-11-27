@@ -73,10 +73,7 @@ ac
 ```
 
 
-(if python modules arent in path use )
-```bash
-python -m allcalc
-```
+
 ## gallery 
 
 ### Main menu
