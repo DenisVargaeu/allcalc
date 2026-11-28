@@ -81,13 +81,16 @@
   "welcome.elect": "Vitajte v module elektriny AllCalc",
   "select.calc.elect": "Vyberte, čo chcete vypočítať:",
   "ohms.law.elect": "Ohmov zákon",
+  "el.power.elect": "Kalkulačka elektrického výkonu",
   "pls.select.elect": "Vyberte: ",
   "voltage.elect": "U - Napätie",
   "resistance.elect": "R - Odpor",
   "current.elect": "I - Prúd",
-  "pls.select.unknown.elect": "Vyberte neznámu: ",
-  "pls.provide.known.elect": "Zadajte známe hodnoty",
+  "power.elect": "P - Výkon",
+  "pls.select.unknown.elect": "Vyberte neznámu veličinu: ",
+  "pls.provide.known.elect": "Zadajte známe hodnoty:",
   "voltage.is.elect": "Napätie je: ",
   "resistance.is.elect": "Odpor je: ",
-  "current.is.elect": "Prúd je: "
+  "current.is.elect": "Prúd je: ",
+  "power.is.elect": "Výkon je: "
 }

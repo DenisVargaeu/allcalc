@@ -24,7 +24,7 @@ import time
 import shutil
 
 terminal = shutil.get_terminal_size()
-version = "4.4.1"
+version = "4.5.0"
 lang = cfg.load_language()
 i18n = I18n(lang)
 console = Console(style="yellow")

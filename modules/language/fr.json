@@ -81,13 +81,16 @@
   "welcome.elect": "Bienvenue dans le module d'électricité AllCalc",
   "select.calc.elect": "Veuillez sélectionner ce que vous souhaitez calculer :",
   "ohms.law.elect": "Loi d'Ohm",
+  "el.power.elect": "Calculateur de puissance électrique",
   "pls.select.elect": "Veuillez sélectionner : ",
   "voltage.elect": "U - Tension",
   "resistance.elect": "R - Résistance",
   "current.elect": "I - Courant",
-  "pls.select.unknown.elect": "Veuillez sélectionner l'inconnue : ",
-  "pls.provide.known.elect": "Veuillez saisir les valeurs connues",
-  "voltage.is.elect": "La tension est : ",
-  "resistance.is.elect": "La résistance est : ",
-  "current.is.elect": "Le courant est : "
+  "power.elect": "P - Puissance",
+  "pls.select.unknown.elect": "Veuillez sélectionner la grandeur inconnue : ",
+  "pls.provide.known.elect": "Veuillez saisir les valeurs connues :",
+  "voltage.is.elect": "La tension est de : ",
+  "resistance.is.elect": "La résistance est de : ",
+  "current.is.elect": "Le courant est de : ",
+  "power.is.elect": "La puissance est de : "
 }

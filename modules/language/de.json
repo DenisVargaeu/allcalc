@@ -81,13 +81,16 @@
   "welcome.elect": "Willkommen im AllCalc-Elektrizitätsmodul",
   "select.calc.elect": "Bitte wählen Sie aus, was Sie berechnen möchten:",
   "ohms.law.elect": "Ohmsches Gesetz",
+  "el.power.elect": "Rechner für elektrische Leistung",
   "pls.select.elect": "Bitte wählen Sie: ",
   "voltage.elect": "U - Spannung",
   "resistance.elect": "R - Widerstand",
   "current.elect": "I - Stromstärke",
-  "pls.select.unknown.elect": "Bitte wählen Sie die Unbekannte: ",
-  "pls.provide.known.elect": "Bitte geben Sie die bekannten Werte ein",
+  "power.elect": "P - Leistung",
+  "pls.select.unknown.elect": "Bitte wählen Sie die gesuchte Größe: ",
+  "pls.provide.known.elect": "Bitte geben Sie die bekannten Werte ein:",
   "voltage.is.elect": "Die Spannung beträgt: ",
   "resistance.is.elect": "Der Widerstand beträgt: ",
-  "current.is.elect": "Die Stromstärke beträgt: "
+  "current.is.elect": "Die Stromstärke beträgt: ",
+  "power.is.elect": "Die Leistung beträgt: "
 }
