@@ -82,15 +82,20 @@
   "select.calc.elect": "Vyberte, čo chcete vypočítať:",
   "ohms.law.elect": "Ohmov zákon",
   "el.power.elect": "Kalkulačka elektrického výkonu",
+  "el.charge.elect": "Kalkulačka elektrického náboja",
   "pls.select.elect": "Vyberte: ",
   "voltage.elect": "U - Napätie",
   "resistance.elect": "R - Odpor",
   "current.elect": "I - Prúd",
   "power.elect": "P - Výkon",
+  "charge.elect": "Q - Elektrický náboj",
+  "time.elect": "t - Čas (v sekundách)",
   "pls.select.unknown.elect": "Vyberte neznámu veličinu: ",
   "pls.provide.known.elect": "Zadajte známe hodnoty:",
   "voltage.is.elect": "Napätie je: ",
   "resistance.is.elect": "Odpor je: ",
   "current.is.elect": "Prúd je: ",
-  "power.is.elect": "Výkon je: "
+  "power.is.elect": "Výkon je: ",
+  "charge.is.elect": "Elektrický náboj je: ",
+  "time.is.elect": "Čas je: "
 }

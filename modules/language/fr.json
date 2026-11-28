@@ -82,15 +82,20 @@
   "select.calc.elect": "Veuillez sélectionner ce que vous souhaitez calculer :",
   "ohms.law.elect": "Loi d'Ohm",
   "el.power.elect": "Calculateur de puissance électrique",
+  "el.charge.elect": "Calculateur de charge électrique",
   "pls.select.elect": "Veuillez sélectionner : ",
   "voltage.elect": "U - Tension",
   "resistance.elect": "R - Résistance",
   "current.elect": "I - Courant",
   "power.elect": "P - Puissance",
+  "charge.elect": "Q - Charge",
+  "time.elect": "t - Temps (en secondes)",
   "pls.select.unknown.elect": "Veuillez sélectionner la grandeur inconnue : ",
   "pls.provide.known.elect": "Veuillez saisir les valeurs connues :",
   "voltage.is.elect": "La tension est de : ",
   "resistance.is.elect": "La résistance est de : ",
   "current.is.elect": "Le courant est de : ",
-  "power.is.elect": "La puissance est de : "
+  "power.is.elect": "La puissance est de : ",
+  "charge.is.elect": "La charge est de : ",
+  "time.is.elect": "Le temps est de : "
 }

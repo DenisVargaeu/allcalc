@@ -1,4 +1,3 @@
-
 # math modules hi
 from modules import negativecheck as ng
 from modules import evenodd as eo
@@ -10,13 +9,11 @@ from modules import basic as bs
 from modules import cd as c
 from modules import percentage as pr
 from modules import elect as el
-
 # config
 from modules.i18n import I18n
 from modules import config as cfg
 from modules import printmenu as pm
 from modules import newusr as nw
-
 # misc
 from rich.prompt import Prompt
 from rich.console import Console
@@ -24,7 +21,7 @@ import time
 import shutil
 
 terminal = shutil.get_terminal_size()
-version = "4.5.0"
+version = "4.6.0"
 lang = cfg.load_language()
 i18n = I18n(lang)
 console = Console(style="yellow")
